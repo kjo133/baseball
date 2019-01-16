@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+#cityHero {
+  height: 600px;
+  width: 100%;
+  margin-top: -20px;
+  font-family: Cardo;
+  position: relative;
+  background: url("../images/boston/1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#cityHero div {
+  color: white;
+  width: 400px;
+  margin: 0;
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+#cityHero div h1 {
+  font-size: 70px;
+  -webkit-text-stroke: 0.25px #111;
+  margin: 0;
+}
+.content {
+  background-color: white;
+  padding: 30px 100px;
+}
+.content h1 {
+  margin: 0;
+  font-family: Cardo;
+  font-size: 34px;
+}
+.content h3 {
+  font-size: 26px;
+  font-family: Cardo;
+}
+.content p {
+  font-size: 18px;
+}
+.content img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.content img.pano {
+  width: 800px;
+}
+.content imginlineImage {
+  display: inline-block;
+}
